@@ -1,0 +1,13 @@
+@font-face {
+    font-family: uncut-sans;
+    font-weight: 400;
+    src: url('../fonts/uncut-sans/uncut-sans-regular-webfont.woff') format('woff'),
+         url('../fonts/uncut-sans/uncut-sans-regular-webfont.woff2') format('woff2');
+  }
+  
+  @font-face {
+    font-family: uncut-sans;
+    font-weight: 700;
+    src: url('../fonts/uncut-sans/uncut-sans-bold-webfont.woff') format('woff'),
+        url('../fonts/uncut-sans/uncut-sans-bold-webfont.woff2') format('woff2');
+  }
