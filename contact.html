@@ -1,107 +1,99 @@
 <html lang="en">
+
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Contact</title>
-<link rel="stylesheet" href="styles.css">
-<link rel="typography" href="uncut-sans">
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="typography" href="uncut-sans">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
     <section class="sub-header">
         <nav>
-            <a href="index.html"><img src="images/logo-no-background.png"></a>
-            <div class="nav-links" id="navLinks">  
+            <a href="contact.html"><img src="images/logo-no-background.png"></a>
+            <div class="nav-links" id="navLinks">
                 <i class="fa fa-close" onclick="hideMenu()"></i>
                 <ul>
                     <li><a href="home.html">HOME</a></li>
-                    <li><a href="about.html">ABOUT</a></li>
-                    <li><a href="download.html">DOWNLOAD</a></li>
                     <li><a href="blog.html">BLOG</a></li>
-                    <li><a href="contact.html">CONTACT</a></li>
+                    <li><a href="contact.html" class="active-page">CONTACT</a></li>
                 </ul>
             </div>
             <i class="fa fa-bars" onclick="showMenu()"></i>
         </nav>
-            <h1>Contact Us</h1>
+        <h1>Contact</h1>
     </section>
-    
-    
-<!------- Contact Us ------->
 
-<section class="location">
-    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d8147.585105246215!2d18.1035184!3d59.3012895!3m2!1i1024!2i768!4f13.1
-    !3m3!1m2!1s0x0%3A0x775452ce735f263c!2sChangemaker%20Educations%20AB!5e0!3m2!1ssv!2sse!4v1668437181964!5m2!1ssv!2sse"
-     width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-</section>
 
-<section class="contact-us">
-    <div class="row">
-        <div class="contact-col">
-            <div>
-                <i class="fa fa-home"></i>
-                <span>
-                    <h5>Hammarby Fabriksväg 65, 120 </h5>
-                    <p>Stockholm, Stockholm Län, Sweden</p>
-                </span>
+    <!------- Contact Us ------->
+
+
+    <section class="contact-us">
+        <div class="row">
+            <div class="contact-col">
+                <div>
+                    <i class="fa fa-home"></i>
+                    <span>
+                        <h5>Changemaker educations</h5>
+                        <p>Fabriksvägen, 22, Stockholm</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-phone"></i>
+                    <span>
+                        <h5>+1 0123456789</h5>
+                        <p>Monday to Saturday 10 Am to 6 Pm</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-envelope-o"></i>
+                    <span>
+                        <h5>peter.kindeberg.seder<br>blad@edu.cmeducations.se</h5>
+                        <p>Email us your query</p>
+                    </span>
+                </div>
             </div>
-            <div>
-                <i class="fa fa-phone"></i>
-                <span>
-                    <h5> +46 0326113399 </h5>
-                    <p>Available weekdays</p>
-                </span>
-            </div>
-            <div>
-                <i class="fa fa-envelope-o"></i>
-                <span>
-                    <h5>peter.kindeberg.sederblad@edu.cmeducations.se</h5>
-                    <p>Email us</p>
-                </span>
+            <div class="contact-col">
+                <form method="post" action="form-handler.php" action="mailto:robert.chamberlain@cmeducations.se">
+                    <input type="text" name="name" placeholder="Enter your name" required>
+                    <input type="email" name="email" placeholder="Enter email address" required>
+                    <input type="text" name="subject" placeholder="Enter your subject" required>
+                    <textarea rows="8" name="message" placeholder="Message" required></textarea>
+                    <button type="submit" class="hero-btn red-btn">Send Message</button>
+                </form>
             </div>
         </div>
-        <div class="contact-col">
-            <form action="form-handler.php" method="post">
-                <input type="text" name="name" placeholder="Enter Your name" required>
-                <input type="email" name="email" placeholder="Enter Email address" required>
-                <input type="text" name="subject" placeholder="Enter Your subject" required>
-                <textarea rows="8" name="message" placeholder="Message" required></textarea>
-                <button type="submit" class="hero-btn red-btn">Send Message</button>
+    </section>
 
-            </form>
+    <!-------- footer ---------->
 
-        </di>
-    </div>
-</section>
-
-    
-<!-------- footer ---------->
-
-<section class="footer">
+    <section class="footer">
         <h4>About Us</h4>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque aliquet turpis nulla, eleifend faucibus est<br>sollicitudin ut. Maecenas ut venenatis ex, et dapibus purus.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque aliquet turpis nulla, eleifend faucibus
+            est<br>sollicitudin ut. Maecenas ut venenatis ex, et dapibus purus.</p>
         <div class="icons">
             <i class="fa fa-facebook"></i>
             <i class="fa fa-twitter"></i>
             <i class="fa fa-instagram"></i>
             <i class="fa fa-linkedin"></i>
         </div>
-        <p>@Copyright 2022</p>
-</section>    
-  
-  
-<!----JavaScript for toggle menu---->
-<script>
-    var navLinks = document.getElementById("navLinks");
+    </section>
 
-    function showMenu() {
-        navLinks.style.right = "0";
-    }
 
-    function hideMenu() {
-        navLinks.style.right = "-200px";
-    }
-</script> 
-    
+    <!----JavaScript for toggle menu---->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
 </body>
-</html>    
+
+</html>
