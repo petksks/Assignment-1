@@ -1,3 +1,9 @@
+Updated 21-12-2022. 
+
+Nice work! Välgodkänt!
+
+*************************************
+
 Hi Peter,
 
 Nice work!
@@ -20,7 +26,8 @@ GODKÄNT:
 3 separate pages: ✅
 "Download" and "about" should be removed from the menu!
 
-A header with a page title on every page: ✅ ❌
+A header with a page title on every page: ✅ 
+Fixed! 8-12-2022
 "Home" has 3 h1s - google's SEO looks for one and only one unique h1 on every page.
 
 A navigational menu every page with links to the other pages: ✅ 
@@ -30,13 +37,14 @@ Contact form:
     Email: ✅
     Message: ✅
     Required: ✅
-    Mail to: ❌
+    Mail to: Fixed! 21-12-20202
     Change the form action so it launches an email client
+    Updated 8-12-2022 - still an issue. I'm not running a webserver so the php doesn't fire. What I'm after here is a "mailto:" action on the form
 
 RWD:
     Desktop: ✅
     Mobile: ✅
-    On the contact page the email breaks the layout
+    On the contact page the email breaks the layout - Fixed 8-12-2022
 
 External CSS: ✅
 
@@ -45,7 +53,7 @@ External CSS: ✅
 VÄLGODKÄNT:
 -------------------------------------
 
-Current page indication in the menu: ❌
+Current page indication in the menu: ✅ Fixed! 8-12-2022
 
 Responsive Image: ✅
 
@@ -64,8 +72,8 @@ Separate CSS: ❌ ✅
 Semantic Element naming: ✅
 
 Code Style:
-  HTML: ✅ ❌
-  CSS: ✅ ❌
+  HTML: ✅ Fixed 8-12-2022
+  CSS: ✅ Fixed 8-12-2022
   Generally good, but the indentation is a bit off. For example line 32 Blog.html:
   <section class="blog-content">
   <div class="row">
